@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <com.android.support.constraint/>
+  <com.androidx.constraint/>
   <com.android.databinding/>
   <com.android.support/>
-  <com.android.support.test/>
-  <com.android.support.test.janktesthelper/>
-  <com.android.support.test.uiautomator/>
-  <com.android.support.test.espresso/>
+  <com.androidx.test/>
+  <com.androidx.test.janktesthelper/>
+  <com.androidx.test.uiautomator/>
+  <com.androidx.test.espresso/>
   <android.arch.persistence.room/>
   <android.arch.lifecycle/>
   <android.arch.core/>
@@ -22,8 +22,8 @@
   <com.android.tools.internal.build.test/>
   <com.android.tools.lint/>
   <com.android.tools.external.org-jetbrains/>
-  <com.android.support.test.espresso.idling/>
-  <com.android.support.test.services/>
+  <com.androidx.test.espresso.idling/>
+  <com.androidx.test.services/>
   <com.google.firebase/>
   <com.google.android.gms/>
   <com.google.gms/>

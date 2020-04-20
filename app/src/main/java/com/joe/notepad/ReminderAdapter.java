@@ -2,7 +2,7 @@ package com.joe.notepad;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +20,7 @@ public class ReminderAdapter extends ArrayAdapter<Reminder> {
         super(context, 0, reminders);
         Resources res = context.getResources();
         color_black = res.getColor(android.R.color.black);
-        color_gray = res.getColor(android.support.v7.appcompat.R.color.abc_secondary_text_material_light);
+        color_gray = res.getColor(androidx.appcompat.R.color.abc_secondary_text_material_light);
     }
 
     @Override
